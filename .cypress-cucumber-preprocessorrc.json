@@ -1,7 +1,7 @@
 {
   "json": {
     "enabled": true,
-    "output": "json/log.json",
+    "output": "cucumber-json/log.json",
     "formatter": "json-formatter/cucumber-json-formatter"
   },
   "messages": {
