@@ -1,11 +1,11 @@
 # master branch
 
-## _[Allure Reports using Cypress](https://hiteshtare.github.io/py-cypress-hitesh-demo/#) - Hosted on Github pages._
+## _[Cucumber Report using Cypress](https://hiteshtare.github.io/py-cucumber-demo/#) - Hosted on Github pages._
   
 ### Topics 
-- Assertions using Mocha
-- Implementation Page Object Model design pattern
+- BDD Framework using Feature and Step Defination
+- Gherkin Syntax
 - Cypress config
 - Working with Package.json
-- HTML Reports using Mochawesome Reporter
-- Beautiful Allure Reports for better analysis and deep dive 
+- HTML Reports using Multiple-Cucumber-Html-Reporter
+- Awesome Cucumber Reports for better analysis and deep dive 
