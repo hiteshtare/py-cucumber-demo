@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run cypress-test"
+    "cucumber:report": "node ./cucumber-html-report.js",
+    "cucumber:clear": "rm -r cucumber-json/** && rm -r cucumber-report/**",
+    "pretest": "npm run cucumber:clear",
+    "test": "npm run cypress-test || npm run posttest",
+    "cypress-test": "cypress run",
+    "posttest": "npm run cucumber:report"
   },
   "keywords": [],
   "author": "",
